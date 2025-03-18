@@ -1,36 +1,64 @@
 <!DOCTYPE html>
 <html lang="is">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Er bongó?</title>
-  <style>
-     body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: url('./puffinlove.jpg') no-repeat center center/cover;
-            font-family: Arial, sans-serif;
-        }
-        .text-container {
-            background: rgba(134, 134, 134, 0.2);
-            backdrop-filter: blur(20px);
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .text-container p {
-            color: #ffffff;
-            font-size: 24px;
-            text-align: center;
-        }
-  </style>
-</head>
-<body>
+    <title>Er bongó? - Veðurféttir</title>
+
+    <meta name="description" content="Er bongó í dag? Fáðu svarið í beinni!">
+    <meta name="keywords"content="bongó, veður, veðurspá, Ísland, veðurfréttir, tenerife, tene">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Er bongó í dag?" >
+    <meta property="og:description" content="Er bongó í dag? Fáðu svarið í beinni!">
+    <meta property="og:image" content="https://www.erbongo.is/puffinlove.jpg">
+    <meta property="og:url" content="https://www.erbongo.is/">
+    <meta property="og:type" content="website">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Er bongó?",
+        "url": "https://www.erbongo.is/",
+        "description": "Er bongó í dag? Fáðu svarið í beinni!",
+        "image": "https://www.erbongo.is/puffinlove.jpg"
+      }
+    </script>
+
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background: url("https://www.erbongo.is/puffinlove.jpg") no-repeat
+          center center/cover;
+        font-family: Arial, sans-serif;
+      }
+      .text-container {
+        background: rgba(134, 134, 134, 0.2);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        padding: 20px;
+        border-radius: 4px;
+        font-size: 42px;
+        color: #fff;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
     <div class="text-container">
-        <p>Nei!</p>
+      <p>Nei!</p>
     </div>
-</body>
+  </body>
 </html>
